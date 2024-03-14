@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="tp-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: medium;
+            background-color: #006400d3;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Hay, Lorena!</h1>
+    <p>Aprendendo sobre <strong>DOM</strong> de "JavaScrip"</p>
+    <div id="msg">Click aqui!</div>
+
+
+    <script>
+        var p1 = window.document.getElementsByTagName('p')[0]
+        window.document.write(`Está escrito assim: ` + p1.innerHTML)
+        var d = window.document.getElementById('msg')
+    </script>
+</body>
+</html>
