@@ -2,7 +2,7 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: darkmagenta;
+    background-color: rgba(0, 0, 0, 0.808);
     color: white;
 }
 
@@ -11,16 +11,30 @@ header{
 }
 
 section{
+    width: 400px;
+    margin: auto;
+    padding: 10px;
+    background-color: darkorchid;
+    border-radius: 15px;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.514);
+}
 
+div#dados{
+padding-left: 10px;
+}
+
+div#res{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
 }
 
 footer{
     text-align: center;
-    font-style: italic;
-
 }
 
 footer a{
+    font-style: italic;
     color: white;
     text-decoration: none;
 }
