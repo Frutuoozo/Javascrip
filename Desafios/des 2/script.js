@@ -20,7 +20,7 @@ function contar(){
             for (var c = i; c <= f; c += p) {
                 res.innerHTML += ` ${c} \u{1F449}`
             }
-        } /*Contagem regreciva*/
+        } /*Contagem regresciva*/
         else { for (var c = i; c>= f; c -= p) {
                 res.innerHTML += ` ${c} \u{1F449}`
             }
